@@ -1,1 +1,1 @@
-# MERN-Stack-Ecomm
+An Ecommerce Website created in MERN Stack
