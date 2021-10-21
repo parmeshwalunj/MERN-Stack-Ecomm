@@ -30,6 +30,7 @@
 .paymentInput {
   padding: 1vmax 4vmax;
   padding-right: 1vmax;
+  font: 300 1.5vmax "Roboto";
   width: 100%;
   box-sizing: border-box;
   border: 1px solid rgba(0, 0, 0, 0.267);
@@ -48,12 +49,14 @@
   border: none;
   background-color: tomato;
   color: white;
-  font: 300 0.9vmax "Roboto";
+  font: 300 1.2vmax "Roboto";
   width: 100%;
   padding: 0.8vmax;
   cursor: pointer;
   transition: all 0.5s;
+  border-radius: 4px;
   outline: none;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.219);
 }
 
 .paymentFormBtn:hover {

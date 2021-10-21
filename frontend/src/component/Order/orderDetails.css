@@ -9,7 +9,7 @@
 }
 
 .orderDetailsContainer {
-  padding: 5vmax;
+  padding: 3vmax;
   padding-bottom: 0%;
 }
 
@@ -28,12 +28,12 @@
 }
 
 .orderDetailsContainerBox > div > p {
-  font: 400 1vmax "Roboto";
+  font: 400 1.2vmax "Roboto";
   color: black;
 }
 .orderDetailsContainerBox > div > span {
   margin: 0 1vmax;
-  font: 100 1vmax "Roboto";
+  font: 100 1.2vmax "Roboto";
   color: #575757;
 }
 
@@ -60,12 +60,13 @@
 .orderDetailsCartItemsContainer > div > a {
   color: #575757;
   margin: 0 2vmax;
-  width: 60%;
+  width: 40%;
   text-decoration: none;
+  font: 100 1.2vmax "Roboto";
 }
 
 .orderDetailsCartItemsContainer > div > span {
-  font: 100 1vmax "Roboto";
+  font: 100 1.2vmax "Roboto";
   color: #5e5e5e;
 }
 
