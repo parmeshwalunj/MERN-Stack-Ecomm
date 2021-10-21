@@ -5,7 +5,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(231, 231, 231);
+  /* background-color: rgb(201 200 200); */
+  background: linear-gradient(to left, #83a4d4, #b6fbff);
   position: fixed;
   top: 0%;
   left: 0;
@@ -13,10 +14,12 @@
 
 .LoginSignUpBox {
   background-color: white;
-  width: 25vw;
+  width: 30vw;
   height: 70vh;
   box-sizing: border-box;
   overflow: hidden;
+  box-shadow: #ddd 0px 0px 19px 1px;
+  border-radius: 0.5rem;
 }
 .login_signUp_toggle {
   display: flex;
@@ -41,6 +44,7 @@
   width: 50%;
   border: none;
   transition: all 0.5s;
+  /* border-radius: 2rem; */
 }
 
 .loginForm,
@@ -73,7 +77,7 @@
   box-sizing: border-box;
   border: 1px solid rgba(0, 0, 0, 0.267);
   border-radius: 4px;
-  font: 300 0.9vmax cursive;
+  font: 300 1.5vmax "Roboto";
   outline: none;
 }
 
@@ -90,11 +94,11 @@
   text-decoration: none;
   align-self: flex-end;
   transition: all 0.5s;
-  font: 500 0.8vmax "Gill Sans";
+  font: 500 1.2vmax "Roboto";
 }
 
 .loginForm > a:hover {
-  color: black;
+  color: blue;
 }
 
 #registerImage > img {
@@ -113,7 +117,7 @@
   height: 5vh;
   border: none;
   margin: 0%;
-  font: 400 0.8vmax cursive;
+  font: 400 0.8vmax "Roboto";
   transition: all 0.5s;
   padding: 0 1vmax;
   color: rgba(0, 0, 0, 0.623);
@@ -129,7 +133,7 @@
   border: none;
   background-color: tomato;
   color: white;
-  font: 300 0.9vmax "Roboto";
+  font: 300 1.2vmax "Roboto";
   width: 100%;
   padding: 0.8vmax;
   cursor: pointer;
@@ -141,7 +145,7 @@
 
 .loginBtn:hover,
 .signUpBtn:hover {
-  background-color: rgb(179, 66, 46);
+  background-color: black;
 }
 
 .shiftToLeft {
@@ -165,7 +169,7 @@
   }
   .LoginSignUpBox {
     width: 100vw;
-    height: 95vh;
+    height: 100vh;
   }
   .login_signUp_toggle {
     height: 5vmax;
@@ -182,7 +186,7 @@
   .loginForm > div > input,
   .signUpForm > div > input {
     padding: 2.5vmax 5vmax;
-    font: 300 1.7vmax cursive;
+    font: 300 1.7vmax "Roboto";
   }
 
   .loginForm > div > svg,
@@ -191,7 +195,7 @@
   }
 
   .loginForm > a {
-    font: 500 1.8vmax "Gill Sans";
+    font: 500 1.8vmax "Roboto";
   }
 
   #registerImage > img {
@@ -201,7 +205,7 @@
 
   #registerImage > input::file-selector-button {
     height: 7vh;
-    font: 400 1.8vmax cursive;
+    font: 400 1.8vmax "Roboto";
   }
 
   .loginBtn,

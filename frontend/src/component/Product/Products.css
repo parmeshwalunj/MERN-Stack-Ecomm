@@ -11,9 +11,9 @@
 .products {
   display: flex;
   flex-wrap: wrap;
-  padding: 0 5vmax;
+  padding: 0 13vmax;
   justify-content: center;
-  min-height: 30vh;
+  min-height: 35vh;
 }
 
 .paginationBox {

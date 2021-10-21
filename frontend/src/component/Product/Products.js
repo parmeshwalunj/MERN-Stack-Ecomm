@@ -131,7 +131,7 @@ const Products = ({ match }) => {
                 activeLinkClass="pageLinkActive"
               />
             </div>
-          )} 
+          )}
         </Fragment>
       )}
     </Fragment>

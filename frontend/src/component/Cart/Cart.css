@@ -21,8 +21,9 @@
   border: none;
   padding: 1vmax 3vmax;
   cursor: pointer;
-  font: 400 1vmax "Roboto";
+  font: 400 1.3vmax "Roboto";
   text-decoration: none;
+  border-radius: 0.5rem;
 }
 
 .cartPage {
@@ -37,7 +38,7 @@
   color: white;
   display: grid;
   grid-template-columns: 4fr 1fr 1fr;
-  font: 300 0.7vmax "Roboto";
+  font: 300 1.1vmax "Roboto";
 }
 .cartHeader > p {
   margin: 10px;
@@ -66,6 +67,7 @@
   cursor: pointer;
   color: white;
   transition: all 0.5s;
+  border-radius: 0.5rem;
 }
 .cartInput > button:hover {
   background-color: rgba(0, 0, 0, 0.767);
@@ -74,7 +76,7 @@
 .cartInput > input {
   border: none;
   padding: 0.5vmax;
-  width: 1vmax;
+  width: 3vmax;
   text-align: center;
   outline: none;
   font: 400 0.8vmax "Roboto";
@@ -87,7 +89,7 @@
   height: 8vmax;
   align-items: center;
   box-sizing: border-box;
-  font: 300 1vmax cursive;
+  font: 300 1vmax "Roboto";
   justify-content: flex-end;
   color: rgba(0, 0, 0, 0.753);
 }
@@ -99,7 +101,7 @@
 
 .cartGrossProfitBox {
   border-top: 3px solid tomato;
-  margin: 1vmax 4vmax;
+  margin: 1vmax 5vmax;
   box-sizing: border-box;
   padding: 2vmax 0;
   font: 300 1vmax "Roboto";
@@ -115,9 +117,9 @@
   background-color: tomato;
   color: white;
   border: none;
-  padding: 0.8vmax 4vmax;
+  padding: 0.8vmax 3vmax;
   width: 50%;
-  font: 300 0.8vmax "Roboto";
+  font: 300 1.1vmax "Roboto";
   margin: 1vmax 4vmax;
   cursor: pointer;
   border-radius: 30px;

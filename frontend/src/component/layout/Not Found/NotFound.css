@@ -24,6 +24,7 @@
   font: 400 1vmax "Roboto";
   text-decoration: none;
   margin: 2vmax;
+  border-radius: 0.5rem;
 }
 
 @media screen and (max-width: 600px) {
