@@ -11,8 +11,9 @@
 .aboutSectionGradient {
   background-image: linear-gradient(
     to bottom right,
-    rgb(78, 81, 255),
-    rgb(74, 137, 189)
+    rgb(201, 194, 194), 
+    rgb(199, 204, 209)
+   
   );
 }
 
@@ -65,6 +66,7 @@
   color: rgba(0, 0, 0, 0.616);
   text-align: center;
   width: 80%;
+  font-size: 20px;
 }
 
 .aboutSectionContainer2 {
@@ -121,4 +123,14 @@
     font-size: 6vmax;
     margin: 1vmax;
   }
+}
+
+
+img{
+  vertical-align: middle;
+  border-style: none;
+  padding: 24px;
+  margin: 2px;
+  width: 266px;
+height: 168px;
 }

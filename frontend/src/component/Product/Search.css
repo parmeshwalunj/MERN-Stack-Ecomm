@@ -20,7 +20,7 @@
   width: 50%;
   outline: none;
   border-radius: 0%;
-  font: 300 1.1vmax cursive;
+  font: 300 1.5vmax popins;
   box-sizing: border-box;
   height: 8%;
 }
@@ -32,7 +32,7 @@
   border: none;
   padding: 1vmax;
   width: 10%;
-  font: 300 1.1vmax "Roboto";
+  font: 300 1.3vmax "popins";
   cursor: pointer;
   color: white;
   transition: all 0.5s;
