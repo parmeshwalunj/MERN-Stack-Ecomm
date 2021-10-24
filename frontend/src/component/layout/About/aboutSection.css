@@ -126,11 +126,11 @@
 }
 
 
-img{
+.img-fluid{
   vertical-align: middle;
   border-style: none;
   padding: 24px;
   margin: 2px;
-  width: 266px;
-height: 168px;
+  width: 304px;
+height: 230px;
 }

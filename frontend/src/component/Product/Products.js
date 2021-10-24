@@ -12,10 +12,10 @@ import MetaData from "../layout/MetaData";
 
 const categories = [
   "Laptop",
-  "Footwear",
-  "Bottom",
-  "Tops",
-  "Attire",
+  "Accessories",
+  // "Bottom",
+  "Television",
+  // "Attire",
   "Camera",
   "SmartPhones",
 ];

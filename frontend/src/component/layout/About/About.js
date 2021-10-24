@@ -39,7 +39,7 @@ consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolor
           <div className="aboutSectionContainer2">
             {/* <Typography component="h2">Our Brands</Typography> */}
            
-            <img src="https://p.w3layouts.com/demos_new/template_demo/28-08-2018/electro_store-demo_Free/1204782700/web/images/ab.jpg" class="img fluid"/>
+            <img src="https://p.w3layouts.com/demos_new/template_demo/28-08-2018/electro_store-demo_Free/1204782700/web/images/ab.jpg" className="img-fluid"/>
            
             {/* <a
             //   href="https://www.youtube.com/channel/UCO7afj9AUo0zV69pqEYhcjw"

@@ -21,7 +21,7 @@
   padding: 3vmax;
   justify-content: space-evenly;
   height: 70%;
-  width: 40vh;
+  width: 50vh;
   background-color: white;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.267);
   border-radius: 0.5rem;
@@ -114,7 +114,7 @@
   .createProductForm > div > select,
   .createProductForm > div > textarea {
     padding: 2.5vmax 5vmax;
-    font: 300 1.7vmax cursive;
+    font: 300 1.7vmax "Roboto";
   }
 
   .createProductForm > div > svg {

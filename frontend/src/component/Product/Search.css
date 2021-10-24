@@ -19,13 +19,8 @@
   padding: 1vmax 2vmax;
   width: 50%;
   outline: none;
-<<<<<<< HEAD
-  border-radius: 0%;
-  font: 300 1.5vmax popins;
-=======
   border-radius: 0.5rem;
   font: 300 1.5vmax "Roboto";
->>>>>>> 3b90f17a66eda9c3d29418af924a07b4d44f53b6
   box-sizing: border-box;
   height: 8%;
 }
@@ -37,11 +32,7 @@
   border: none;
   padding: 1vmax;
   width: 10%;
-<<<<<<< HEAD
-  font: 300 1.3vmax "popins";
-=======
   font: 300 1.5vmax "Roboto";
->>>>>>> 3b90f17a66eda9c3d29418af924a07b4d44f53b6
   cursor: pointer;
   color: white;
   transition: all 0.5s;

@@ -70,7 +70,7 @@
   max-width: 100%;
 }
 .slide {
-  width: 100%;
+  width: 100% !important; 
   height: 100vh;
   position: relative;
   background-size: cover;

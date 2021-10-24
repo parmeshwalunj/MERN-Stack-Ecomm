@@ -23,7 +23,8 @@
 }
 
 .CarouselImage {
-  width: 40vmax;
+  width: 33vmax;
+  height: 33vmax;
 }
 
 .detailsBlock-1 > h2 {
@@ -181,7 +182,8 @@
   border-radius: 1.5rem;
 }
 .reviewCard > img {
-  width: 5vmax;
+  width: 10vmax;
+  height: 10vmax;
 }
 .reviewCard > p {
   color: rgba(0, 0, 0, 0.836);
